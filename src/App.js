@@ -4,7 +4,7 @@ import { io } from 'socket.io-client';
 import './App.css';
 import Chat from './Chat';
 
-const socket =io.connect("https://chatapp-backend-chi.vercel.app")
+const socket =io.connect("https://chatappbackendserver.onrender.com")
 //https://chatapp-backend-chi.vercel.app/
 function App() {
 const [userName,setUserName] =useState("");
